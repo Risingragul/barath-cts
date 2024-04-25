@@ -1,0 +1,228 @@
+# class parent():
+#     def A(self,var,rar):
+#         print(var+rar);
+# class child (parent):
+#     def B (self,a,b):
+#         print(a**b)
+        
+# obj=child()
+# obj.A(4,2)
+# obj.B(5,2)
+
+
+
+
+# lis=['my','name','is','barath']
+# if('barath' in lis):
+#     print("hola")
+#     lis[lis.index('barath')]='billa'
+# print (lis)
+
+
+#iNSERT ELEMENTS APPEND THEM IN PYHTON
+
+
+# lis = ['apple','banana','orange','pine']
+# tup = ('carrot','cucumber','cauliflower','brinjal')
+
+# lis.insert(0,'watermelon')
+# print(lis)
+
+# lis.append('musk')
+# print(lis)
+
+# lis.extend(tup)
+# print(lis)
+
+
+# lis.clear()
+# print(lis)
+
+
+# cont = [1,2,3,4,5,6,7,8,9]
+# fin=[x for x in range(10) if x>2]
+# print(fin)
+
+#REVERSEA STRING IN PYTHON
+# sample = input("Enter Your name-->")
+# print(sample)
+# revsam = sample[::-1]
+# if(sample==revsam):
+#     print("palindrome")
+
+
+# Lambda functions
+# x = lambda x,y,z : (x+y+z)
+# print(x(2,3,4))
+
+
+#sample for inheritance
+# class parent:
+#     def __init__(self,fname,sname):
+#         self.fname = fname
+#         self.sname = sname
+#         print(fname,sname)
+        
+# parent("yaro ","evano")
+
+
+
+# Polymorphism (class level like method overrding)
+
+
+class bike:
+    def __init__(self,name,speed):
+        self.name=name
+        self.speed=speed
+    def move(self):
+        print("ride")
+class car:
+    def __init__(self,name,speed):
+        self.name=name
+        self.speed=speed
+    def move(self):
+        print("drive")
+class jet:
+    def __init__(self,name,speed):
+        self.name=name
+        self.speed=speed
+    def move(self):
+        print("fly")
+        
+O1=bike('spl',22)
+O2=car('hyd',222)
+O3=jet('nee',2222)
+
+for x in (O1,O2,O3):
+    print(x.move())
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+# class sample:
+    
+#     def __init__(self,name):
+#         self.name = name
+#     def print(self):
+#         print(f"Enperu  {self.name}")
+
+# obj = sample("barath")
+# obj.print()
+
+
+
+# class Parent():
+#     def __init__(self,name,id):
+#         self.name=name
+#         self.id=id
+#     def toprint(self):
+#         print(f"My name is {self.name}")
+#         print(f"My id is {self.id}")
+# class Child(Parent):
+#     def __init__(self,name,id,salary,department):
+#         # self.name=name
+#         # self.id=id
+#         self.salary=salary
+#         self.department=department
+#         super().__init__(name,id)
+#         super().toprint()
+#     def toshow(self):
+#         print(f"My salary is {self.salary}")
+#         print(f"My department is {self.department}")
+        
+        
+# obj =  Child('barath' , 23,1000,'eee')
+# obj.toshow()
+        
+        
+        
+        
+        
+# from abc import ABC, abstractmethod
+# class cars(ABC):
+#     def mileage(self):
+#         pass
+# class maruthi(cars):
+#     def mileage(self):
+#         print("idhu maruthi mileage")
+# class tesla(cars):
+#     def mileage(self):
+#         print("idhu tesla mileage")
+# class ennamo(cars):
+#     def mileage(self):
+#         print("idhu ennamo mileage")
+        
+# m = maruthi()
+# m.mileage()
+# t = tesla()
+# t.mileage()
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
